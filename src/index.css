@@ -11,3 +11,11 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+@font-face{
+  font-family: "LibreBaskerville";
+  src:local("LibreBaskerville"), url(./Assets/LibreBaskerville-Bold.ttf) format("truetype");
+}
+@font-face{
+  font-family: "Poppins";
+  src:local("Poppins"), url(./Assets/Poppins-Regular.ttf) format("truetype");
+}
