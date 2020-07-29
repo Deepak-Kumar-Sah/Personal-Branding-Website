@@ -5,7 +5,10 @@ import './skills.css';
 export default class skill extends React.Component{
     render(){
         return(
+            <div className = 'img'>
+                <img src ={demo}/>
+                </div>
             
-        )
+        );
     }
 }
