@@ -1,12 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Homepage from "./Component/NavigationBar/Homepage";
+import Homepage from "./Component/FirstSection/Homepage";
+import SimpleSlider from "./Component/BackgroundImage/BackgroundImage"
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
     <Homepage />
+    {/* <SimpleSlider/> */}
   </React.StrictMode>,
   document.getElementById('root')
 );

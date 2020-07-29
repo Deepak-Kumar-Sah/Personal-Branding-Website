@@ -1,5 +1,6 @@
 import React from 'react';
-import NavigationBar from "./NavigationBar";
+import FirstSection from "./FirstSection";
+import About from "../../About/about";
 import {
     BrowserRouter as Router,
     Route,
@@ -10,9 +11,8 @@ export default class Nav extends React.Component{
     render(){
         return(
            <Router>
-                <Route exact path="/" component={NavigationBar}/>
-                {/* <Route path="/a" component={Philosopher} onClick={()=>{}}/>
-                <Route path="/aHuman" component={Human}/> */}
+                <Route exact path="/" component={FirstSection}/>
+                <Route path="/about" component={About} onClick={()=>{}}/>
            </Router>
         );
     }

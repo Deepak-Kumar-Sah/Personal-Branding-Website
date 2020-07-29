@@ -1,0 +1,17 @@
+
+.box1{
+   background-image: url("../../Assets/Images/Cover1.jpg");
+   background-repeat: no-repeat;
+   background-position:0px -220px; 
+   background-size: cover;
+   height: 700px;
+}
+.content{
+    display:flex;
+}
+.para1{
+    background-color: lightblue;
+}
+.para2{
+    background-color: lightsalmon;
+}
