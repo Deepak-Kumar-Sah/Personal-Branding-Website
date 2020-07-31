@@ -1,4 +1,4 @@
-.button,button{
+.button1>button{
     
     height: 60px;
     width: 200px;
@@ -12,6 +12,7 @@
     background-color: rgb(190, 242, 252);
     
 }
+
 button:hover{
     background-color: rgb(90, 156, 134);
     color: white;
