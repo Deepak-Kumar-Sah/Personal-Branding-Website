@@ -8,3 +8,12 @@
     height: 700px;
     width: max-content;
  } */
+ /* .slider-wrapper{
+    height:500px;
+ } */
+ .MySlide {
+   height: 700px;
+   width: 100%;
+   position: relative;
+}
+/* https://meet.google.com/linkredirect?authuser=0&dest=https%3A%2F%2Fgithub.com%2Fmaxmarinich%2Freact-alice-carousel */

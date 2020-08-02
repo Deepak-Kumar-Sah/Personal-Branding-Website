@@ -19,3 +19,7 @@ code {
   font-family: "Poppins";
   src:local("Poppins"), url(./Assets/Poppins-Regular.ttf) format("truetype");
 }
+@font-face{
+  font-family: "Poppins";
+  src:local("Poppins"), url(./Assets/Poppins-Bold.ttf) format("truetype");
+}

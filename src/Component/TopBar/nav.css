@@ -1,11 +1,14 @@
 ul{
     display: inline-flex;
-    margin-top: initial;
-    padding: 1rem;
-    justify-content: center;
+    /* margin-top: initial; */
+    /* padding: 1rem; */
+    /* justify-content: center; */
+    position:sticky;
+    margin-left:320px;
 }
 .menu1{
-    display: inline-flex;
+    /* display: inline-flex; */
+    list-style-type: none;
     margin-top: initial;
     padding: 1rem;
     justify-content: center;
@@ -14,7 +17,8 @@ ul{
 
 }
 .menu2{
-    display: inline-flex;
+    /* display: inline-flex; */
+    list-style-type: none;
     margin-top: initial;
     padding: 1rem;
     justify-content: center;
@@ -22,21 +26,12 @@ ul{
     font-size: 20px;
     color: white;
 }
-
-
- ul{
-    /* background-color: rgb(37, 37, 37); */
-    position:sticky;
-    width: 100%;
-}
 .nandita1{
     font-size:27px;
     font-family: "LibreBaskerville";
     padding-top: 9.5px;
     padding-right: 10px;
     padding-left: 10px;
-    
-   
 }
 .nandita2{
     font-size:27px;
@@ -54,6 +49,7 @@ ul{
 }
 .navbox2{
     background-color:transparent;
+    width: 100%;
 }
 
 .content{

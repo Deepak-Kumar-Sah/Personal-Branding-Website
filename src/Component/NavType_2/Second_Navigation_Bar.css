@@ -1,0 +1,22 @@
+.new_nav{
+    list-style-type: none;
+    /* background-color: lawngreen; */
+    
+}
+.anchor{
+    text-decoration: none;
+    color: black;
+}
+.new_nav>li{
+    /* padding: 1rem; */
+    margin-left: 25px;
+    font-family: Poppins-Bold;
+    font-size: 24px;
+   
+}
+.heading{
+    text-align: center;
+}
+.parent_div{
+    /* background-color: khaki; */
+}

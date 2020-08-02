@@ -22,11 +22,11 @@ export default class Footer extends React.Component{
                     </div>
                     </div>
                <div className="footer-logo">
-                   <img src={linkedin} alt="link_logo"/>
-                   <img src={Instagram} alt="insta_logo"/>
-                   <img src={Facebook} alt="fb_logo"/>
-                   <img src={twitter} alt="twitter_logo"/>
-                   <img src={PlayButton} alt="play_logo"/>
+                   <a href="https://www.linkedin.com/login"><img src={linkedin} alt="link_logo"/></a>
+                   <a href="https://www.instagram.com/"><img src={Instagram} alt="insta_logo"/></a>
+                   <a href="https://www.facebook.com/"><img src={Facebook} alt="fb_logo"/></a>
+                   <a href="https://twitter.com/explore"><img src={twitter} alt="twitter_logo"/></a>
+                   <a href="https://www.youtube.com/"><img src={PlayButton} alt="play_logo"/></a>
                    <p className="copywrite">@copywrite 2020</p>
                </div>
                <div className="newsletter">
