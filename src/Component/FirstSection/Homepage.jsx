@@ -1,7 +1,8 @@
 import React from 'react';
 import FirstSection from "./FirstSection";
-import About from "../../About/about";
-import Ahuman from "../Human/human"
+import About from "../about/About";
+// import Ahuman from "../Human/human"
+
 import Second_Navigation_Bar from "../../Component/NavType_2/Second_Navigation_Bar";
 import {
     BrowserRouter as Router,
@@ -14,7 +15,7 @@ export default class Nav extends React.Component{
         return(
            <Router>
                 <Route exact path="/" component={FirstSection}/>
-                <Route path="/about" component={Ahuman} onClick={()=>{}}/>
+                <Route path="/about" component={About} onClick={()=>{}}/>
            </Router>
         );
     }
