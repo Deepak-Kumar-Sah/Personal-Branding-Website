@@ -1,7 +1,6 @@
 import React from 'react';
 import './nav.css';
 import {
-    
     Link
 } from 'react-router-dom';
 export default class TopBar extends React.Component{
@@ -32,10 +31,12 @@ export default class TopBar extends React.Component{
                     <li className={this.state.isSticky ? 'menu1' : "menu2"}><Link to="/journey" className={this.state.isSticky ? 'anchor1' : "anchor2"}>Journey</Link></li>
                     <div className={this.state.isSticky ? 'nandita1' : "nandita2"}>NANDITA SHARMA</div>
                     <li className={this.state.isSticky ? 'menu1' : "menu2"}><Link to="/poem" className={this.state.isSticky ? 'anchor1' : "anchor2"}>Poem</Link></li>
-                    <li className={this.state.isSticky ? 'menu1' : "menu2"} ><Link to="/join_me" className={this.state.isSticky ? 'anchor1' : "anchor2"}>Join me</Link></li>
                     <li className={this.state.isSticky ? 'menu1' : "menu2"} ><Link onClick={()=>window.scrollBy({
-                    top:1510,//150 initial
-                    left:0,
+                    top:3000,
+                    behavior:'smooth'
+                })}  className={this.state.isSticky ? 'anchor1' : "anchor2"}>Join me</Link></li>
+                    <li className={this.state.isSticky ? 'menu1' : "menu2"} ><Link onClick={()=>window.scrollBy({
+                    top:3000,
                     behavior:'smooth'
                 })} className={this.state.isSticky ? 'anchor1' : "anchor2"}>Contact</Link></li>
                 </ul>
