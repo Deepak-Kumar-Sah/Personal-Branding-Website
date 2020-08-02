@@ -1,0 +1,48 @@
+.about{
+    text-align:center;
+    border: 10px solid rgb(126, 107, 107) ;
+    height:300px;
+    width:700px;
+    margin-left: 200px;
+    margin-top: 60px;
+    font-family:;
+    background-image: url("../../Assets/Images/ab.jpg");
+    background-repeat: no-repeat;
+    background-position:0px-300px; 
+    background-size: cover;
+    padding:50px;  
+    
+}
+.title{
+    font-size: 20px;
+    margin-top:20px;
+    
+    
+}
+.buttona>button{
+    
+    height:40px;
+    width: 80px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size:12px;
+    /* font-family: "Poppins-Regular"; */
+    transition-duration: 0.4s;
+    background-color:skyblue;
+    
+}
+
+button:hover{
+    background-color:darkgray;
+    color:grey;
+}
+.box{
+    opacity: 0.7;
+    background-color: white;
+    border: 3px solid darkgray ;
+    padding:5px;
+
+}
