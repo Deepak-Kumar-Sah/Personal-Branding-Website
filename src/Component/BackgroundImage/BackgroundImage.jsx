@@ -12,24 +12,26 @@ export default class SimpleSlider extends React.Component{
           dots: true,
           autoplay:true,
           infinite: true,
-          speed: 1500,
+          adaptiveHeight: true,
+          speed: 500,
           slidesToShow: 1,
           sidesToSlcroll: 1
           
           
         };
         return (
-          <div>
+
+          <div className="slider-wrapper">
             
             <Slider {...settings}>
-              <div className="MySlide1">
+              <div className="MySlide">
                 <img src={cover1} className="MySlide"/>
               </div>
               <div >
-                <h3><img src={cover2} className="MySlide"/></h3>
+                <img src={cover2} className="MySlide"/>
               </div>
               <div >
-                <h3><img src={cover3} className="MySlide"/></h3>
+                <img src={cover3} className="MySlide"/>
               </div>
               {/* <div className="MySlide">
                 <h3>4</h3>
