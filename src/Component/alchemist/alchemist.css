@@ -1,0 +1,21 @@
+.title{
+    text-align: center;
+    /* margin-right: 45px; */
+    font-family: LibreBaskerville-Bold;
+    font-size: 1.5rem;
+}
+.aHuman{
+    margin-top: 15px;
+    /* height:700px;
+    width: 1600px; */
+    /* background-color: blue; */
+}
+.aHuman>img{
+    height: 400px;
+    width: 1000px;
+    margin-left: 289px;
+}
+.header-logo{
+    margin-left: 68%;
+    margin-top: 20px;
+}
