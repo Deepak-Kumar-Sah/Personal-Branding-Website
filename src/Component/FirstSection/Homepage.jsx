@@ -1,7 +1,7 @@
 import React from 'react';
 import FirstSection from "./FirstSection";
 import About from "../about/About";
-// import Ahuman from "../Human/human"
+import human from "../Human/human";
 
 import Second_Navigation_Bar from "../../Component/NavType_2/Second_Navigation_Bar";
 import {
@@ -16,6 +16,7 @@ export default class Nav extends React.Component{
            <Router>
                 <Route exact path="/" component={FirstSection}/>
                 <Route path="/about" component={About} onClick={()=>{}}/>
+                <Route exact path="/human" component={human}/>
            </Router>
         );
     }
