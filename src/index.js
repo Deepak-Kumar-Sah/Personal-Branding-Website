@@ -1,13 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Homepage from "./Component/FirstSection/Homepage";
+// import Homepage from "./Component/FirstSection/Homepage";
 // import SimpleSlider from "./Component/BackgroundImage/BackgroundImage"
 //import * as serviceWorker from './serviceWorker';
-
+// import Aboutpg from "./Component/about/Aboutpg"
+// import Poem from "./Component/poem/Poem"
+//  import About from "./Component/about/About"
 ReactDOM.render(
   <React.StrictMode>
-    <Homepage/>
+    {/* <Homepage/> */}
+    
     {/* <SimpleSlider/> */}
   </React.StrictMode>,
   document.getElementById('root')
