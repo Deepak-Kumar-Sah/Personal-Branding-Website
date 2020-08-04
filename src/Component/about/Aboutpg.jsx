@@ -1,10 +1,13 @@
 import React from 'react';
-import './About.css';
-export default class About extends React.Component{
+import './Aboutpg.css';
+import ab from "../../Assets/Images/ab.jpg" ;
+export default class Aboutpg extends React.Component{
     render(){
         return(
+            <div className="about">
+                
             <div className="obox">
-             <div className="box">
+                <div className="box">
                 <div className="title">
                 <h2>About Nandita </h2>
                 </div>
@@ -19,14 +22,9 @@ export default class About extends React.Component{
                 </div>
                
                 
-
-                
-                <div className="buttona">
-                <button > read more </button>
-                </div>
-
-                </div>
-                </div>
+           </div>
+            </div>
+            </div>
         );
     }
     }
