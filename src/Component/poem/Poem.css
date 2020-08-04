@@ -1,0 +1,48 @@
+.poem{
+    background-color:whitesmoke; 
+    text-align:center; 
+    /* border: 40px solid lightgray ; */
+    height:600px;
+    width:1300px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 40px; 
+    position:absolute;
+
+
+}.box{
+    
+    border: 30px solid lightgray ;
+    height:400px;
+    width:600px;
+    margin-left: 300px;
+    margin-bottom:20px;
+    margin-top: 30px;
+    font-family: Poppins-Regular;;
+    background-color:white;
+    padding:10px;  
+    position:relative;
+    
+}
+
+.ab,img{
+    height:120px;
+    width:120px;
+    margin-top:3px;
+    
+}
+
+.title{
+    text-align:left;
+    font-size: 20px;
+    margin-top:20px;
+    margin-left:150px;
+    
+}
+.content{
+    text-align:center;
+    margin-left:150px;
+    margin-right:20px;
+    margin-bottom:20px;
+
+}
