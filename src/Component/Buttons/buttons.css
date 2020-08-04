@@ -1,5 +1,4 @@
 .button1>button{
-    
     height: 60px;
     width: 200px;
     margin-bottom: 20px;
@@ -13,7 +12,7 @@
     
 }
 
-button:hover{
+.button1>button:hover{
     background-color: rgb(90, 156, 134);
     color: white;
 }

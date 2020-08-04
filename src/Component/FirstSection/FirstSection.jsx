@@ -45,7 +45,7 @@ export default class FirstSection extends React.Component{
                 She was juggling the multiple hats of a daughter, wife mother , professional, entrepreneur and The boss, trying to be the best in everything. She
                 wanted to prove herself, achieve unmatched heights, She was doing day by day. Competing with the world and herself, this was a non-stop run,
                 fatigue was building,she started losing, losing herself, her laughter, her smile, her health and her sense of judgement.<br/>
-                <button className="Read-more"><Link to="/human" className="anchor">Read More...</Link></button></p>
+                <button className="right-Read-more"><Link to="/human" className="anchor"></Link>Read More...</button></p>
            </div>
            <br/>
            <div className="right">
@@ -60,7 +60,7 @@ export default class FirstSection extends React.Component{
                 She was juggling the multiple hats of a daughter, wife mother , professional, entrepreneur and The boss, trying to be the best in everything. She
                 wanted to prove herself, achieve unmatched heights, She was doing day by day. Competing with the world and herself, this was a non-stop run,
                 fatigue was building,she started losing, losing herself, her laughter, her smile, her health and her sense of judgement.<br/>
-                <br/><button className="right-Read-more"><Link to="/alchemist" className="anchor">Read More...</Link></button>
+                <br/><button className="left-Read-more"><Link to="/alchemist" className="anchor"></Link>Read More...</button>
                 </p>
            </div>
            <br/>
@@ -76,7 +76,7 @@ export default class FirstSection extends React.Component{
                 She was juggling the multiple hats of a daughter, wife mother , professional, entrepreneur and The boss, trying to be the best in everything. She
                 wanted to prove herself, achieve unmatched heights, She was doing day by day. Competing with the world and herself, this was a non-stop run,
                 fatigue was building,she started losing, losing herself, her laughter, her smile, her health and her sense of judgement.<br/>
-                <button className="Read-more"><Link to="/philosopher" className="anchor">Read More...</Link></button></p>
+                <button className="right-Read-more"><Link to="/philosopher" className="anchor"></Link>Read More...</button></p>
            </div>
            <br/>
            <div className="right">
@@ -91,7 +91,7 @@ export default class FirstSection extends React.Component{
                 She was juggling the multiple hats of a daughter, wife mother , professional, entrepreneur and The boss, trying to be the best in everything. She
                 wanted to prove herself, achieve unmatched heights, She was doing day by day. Competing with the world and herself, this was a non-stop run,
                 fatigue was building,she started losing, losing herself, her laughter, her smile, her health and her sense of judgement.<br/>
-                <br/><button className="right-Read-more"><Link to="/entrepreneur" className="anchor">Read More...</Link></button>
+                <br/><button className="left-Read-more"><Link to="/entrepreneur" className="anchor"></Link>Read More...</button>
                 </p>
            </div>
            <br/>
@@ -107,7 +107,7 @@ export default class FirstSection extends React.Component{
                 She was juggling the multiple hats of a daughter, wife mother , professional, entrepreneur and The boss, trying to be the best in everything. She
                 wanted to prove herself, achieve unmatched heights, She was doing day by day. Competing with the world and herself, this was a non-stop run,
                 fatigue was building,she started losing, losing herself, her laughter, her smile, her health and her sense of judgement.<br/>
-                <button className="Read-more"><Link to="/artist" className="anchor">Read More...</Link></button></p>
+                <button className="right-Read-more"><Link to="/artist" className="anchor"></Link>Read More...</button></p>
            </div>
            <br/>
 
