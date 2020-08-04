@@ -1,6 +1,6 @@
 import React from 'react';
-import './Aboutpg.css';
-import ab from "../../Assets/Images/ab.jpg" ;
+// import './Aboutpg.css';
+// import ab from "../../Assets/Images/ab.jpg" ;
 export default class Aboutpg extends React.Component{
     render(){
         return(

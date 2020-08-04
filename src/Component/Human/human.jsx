@@ -10,6 +10,12 @@ import Facebook from "../../Assets/Images/facebook.png";
 import twitter from "../../Assets/Images/twitter.png";
 import PlayButton from "../../Assets/Images/play-button.png";
 export default class Human extends React.Component{
+    componentDidMount(){
+        window.scrollTo({
+            top:0,
+            behavior:"smooth",
+        });
+    }
     render(){
         return(
            <div>

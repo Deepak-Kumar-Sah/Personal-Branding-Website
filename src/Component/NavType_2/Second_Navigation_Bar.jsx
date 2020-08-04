@@ -11,12 +11,12 @@ export default class TopBar extends React.Component{
             <div>
                 <div className="parent_div">    
                 <ul className="new_nav">
-                    <li><Link to="/" className="anchor">Home</Link></li>
-                    <li><Link to="/human" className="anchor">A Human</Link></li>
-                    <li><Link to="/alchemist" className="anchor">The Alchemist</Link></li>
-                    <li><Link to="/philosopher" className="anchor">The Philosopher</Link></li>
-                    <li><Link to="/Entrepreneur" className="anchor">An Entrepreneur</Link></li>
-                    <li><Link to="/artist" className="anchor">An Artist</Link></li>
+                    <li><Link to="/" className="anchor1">Home</Link></li>
+                    <li><Link to="/human" className="anchor1">A Human</Link></li>
+                    <li><Link to="/alchemist" className="anchor1">The Alchemist</Link></li>
+                    <li><Link to="/philosopher" className="anchor1">The Philosopher</Link></li>
+                    <li><Link to="/Entrepreneur" className="anchor1">An Entrepreneur</Link></li>
+                    <li><Link to="/artist" className="anchor1">An Artist</Link></li>
                 </ul>
             </div>
 

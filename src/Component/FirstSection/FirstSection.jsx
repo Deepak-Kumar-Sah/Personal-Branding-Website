@@ -5,6 +5,7 @@ import Button from "../Buttons/Buttons";
 import TopBar from "../TopBar/nav";
 import Footer from "../Footer/footer";
 import Ahuman from "../../Assets/Images/human.jpg";
+import About from "../about/About";
 import {
   Link
 } from 'react-router-dom';
@@ -23,15 +24,7 @@ export default class FirstSection extends React.Component{
            </div>
            <div className="body">
            <div className="About-Nandita">
-               <h2>About Nandita</h2>
-               <p>This is an extraordinary story of an ordinary girl. Many have seen her but no one understood. 
-                   Who she really is? Under the multiple layers of people's perspective.And her journey,
-                 crossing multiple roads filled with various twists, highs and lows. How she found the elixir of life “The everlasting
-                 source of love”.And her enigmatic relationship with universe and effervescent wisdom….
-                 This is an extraordinary story of an ordinary girl. Many have seen her but no one understood. 
-                   Who she really is? Under the multiple layers of people's perspective.And her journey,
-                 crossing multiple roads filled with various twists, highs and lows. How she found the elixir of life “The everlasting
-                 source of love”.And her enigmatic relationship with universe and effervescent wisdom….</p>
+               <About/>
            </div>
            <div className="left">
              <div><img src={Ahuman} className="left-img"/></div>
@@ -45,7 +38,7 @@ export default class FirstSection extends React.Component{
                 She was juggling the multiple hats of a daughter, wife mother , professional, entrepreneur and The boss, trying to be the best in everything. She
                 wanted to prove herself, achieve unmatched heights, She was doing day by day. Competing with the world and herself, this was a non-stop run,
                 fatigue was building,she started losing, losing herself, her laughter, her smile, her health and her sense of judgement.<br/>
-                <button className="right-Read-more"><Link to="/human" className="anchor"></Link>Read More...</button></p>
+                <button className="right-Read-more"><Link to="/human" className="anchor">Read More...</Link></button></p>
            </div>
            <br/>
            <div className="right">
@@ -60,7 +53,7 @@ export default class FirstSection extends React.Component{
                 She was juggling the multiple hats of a daughter, wife mother , professional, entrepreneur and The boss, trying to be the best in everything. She
                 wanted to prove herself, achieve unmatched heights, She was doing day by day. Competing with the world and herself, this was a non-stop run,
                 fatigue was building,she started losing, losing herself, her laughter, her smile, her health and her sense of judgement.<br/>
-                <br/><button className="left-Read-more"><Link to="/alchemist" className="anchor"></Link>Read More...</button>
+                <br/><button className="left-Read-more"><Link to="/alchemist" className="anchor">Read More...</Link></button>
                 </p>
            </div>
            <br/>
@@ -76,7 +69,7 @@ export default class FirstSection extends React.Component{
                 She was juggling the multiple hats of a daughter, wife mother , professional, entrepreneur and The boss, trying to be the best in everything. She
                 wanted to prove herself, achieve unmatched heights, She was doing day by day. Competing with the world and herself, this was a non-stop run,
                 fatigue was building,she started losing, losing herself, her laughter, her smile, her health and her sense of judgement.<br/>
-                <button className="right-Read-more"><Link to="/philosopher" className="anchor"></Link>Read More...</button></p>
+                <button className="right-Read-more"><Link to="/philosopher" className="anchor">Read More...</Link></button></p>
            </div>
            <br/>
            <div className="right">
@@ -91,7 +84,7 @@ export default class FirstSection extends React.Component{
                 She was juggling the multiple hats of a daughter, wife mother , professional, entrepreneur and The boss, trying to be the best in everything. She
                 wanted to prove herself, achieve unmatched heights, She was doing day by day. Competing with the world and herself, this was a non-stop run,
                 fatigue was building,she started losing, losing herself, her laughter, her smile, her health and her sense of judgement.<br/>
-                <br/><button className="left-Read-more"><Link to="/entrepreneur" className="anchor"></Link>Read More...</button>
+                <br/><button className="left-Read-more"><Link to="/entrepreneur" className="anchor">Read More...</Link></button>
                 </p>
            </div>
            <br/>
@@ -107,7 +100,7 @@ export default class FirstSection extends React.Component{
                 She was juggling the multiple hats of a daughter, wife mother , professional, entrepreneur and The boss, trying to be the best in everything. She
                 wanted to prove herself, achieve unmatched heights, She was doing day by day. Competing with the world and herself, this was a non-stop run,
                 fatigue was building,she started losing, losing herself, her laughter, her smile, her health and her sense of judgement.<br/>
-                <button className="right-Read-more"><Link to="/artist" className="anchor"></Link>Read More...</button></p>
+                <button className="right-Read-more"><Link to="/artist" className="anchor">Read More...</Link></button></p>
            </div>
            <br/>
 

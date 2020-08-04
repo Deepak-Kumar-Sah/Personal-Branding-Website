@@ -1,6 +1,6 @@
 import React from 'react';
 import './euntre.css';
-import aHuman from "./image/human.jpg";
+// import aHuman from "./image/human.jpg";
 import Content from './content';
 import Second_Navigation_Bar from "../NavType_2/Second_Navigation_Bar";
 import Footer from "../Footer/footer";
@@ -10,6 +10,12 @@ import Facebook from "../../Assets/Images/facebook.png";
 import twitter from "../../Assets/Images/twitter.png";
 import PlayButton from "../../Assets/Images/play-button.png";
 export default class Euntre extends React.Component{
+    componentDidMount(){
+        window.scrollTo({
+            top:0,
+            behavior:"smooth",
+        });
+    }
     render(){
         return(
            <div>
@@ -27,7 +33,7 @@ export default class Euntre extends React.Component{
                    <a href="https://www.youtube.com/"><img src={PlayButton} alt="play_logo"/></a>
                </div>
                 <div className="aHuman">
-                    <img src={aHuman}/>
+                    {/* <img src={aHuman}/> */}
                 </div>
                 <div>
                     <Content/>

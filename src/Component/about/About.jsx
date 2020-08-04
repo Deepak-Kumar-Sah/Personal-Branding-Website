@@ -1,5 +1,8 @@
 import React from 'react';
 import './About.css';
+import {
+    Link
+  } from 'react-router-dom';
 export default class About extends React.Component{
     render(){
         return(
@@ -17,14 +20,7 @@ export default class About extends React.Component{
                  and Home Rule: National Sovereignty and the Separation of Natives and Migrants
                  (Duke University Press, 2020).
                 </div>
-               
-                
-
-                
-                <div className="buttona">
-                <button > read more </button>
-                </div>
-
+                <button className="about-Read-more"><Link to="/aboutpg" className="anchor">Read More...</Link> </button>
                 </div>
                 </div>
         );
