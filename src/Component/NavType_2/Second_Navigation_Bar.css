@@ -20,3 +20,7 @@
 .parent_div{
     /* background-color: khaki; */
 }
+.anchor:hover{
+    color: rgb(90, 156, 134);
+   
+}

@@ -1,13 +1,9 @@
 ul{
     display: inline-flex;
-    /* margin-top: initial; */
-    /* padding: 1rem; */
-    /* justify-content: center; */
     position:sticky;
     margin-left:320px;
 }
 .menu1{
-    /* display: inline-flex; */
     list-style-type: none;
     margin-top: initial;
     padding: 1rem;
@@ -17,7 +13,6 @@ ul{
 
 }
 .menu2{
-    /* display: inline-flex; */
     list-style-type: none;
     margin-top: initial;
     padding: 1rem;
@@ -55,18 +50,18 @@ ul{
 .content{
     display:flex;
 }
-.para1{
-    background-color: lightblue;
-}
-.para2{
-    background-color: lightsalmon;
-}
 .anchor1{
     text-decoration: none;
-    color:black;
-    
+    color:black;   
 }
 .anchor2{
     text-decoration: none;
     color: white;
 }
+.anchor1:hover{
+    color:teal;
+}
+.anchor2:hover{
+    color: lightsalmon;
+}
+
