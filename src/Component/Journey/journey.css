@@ -32,3 +32,7 @@
 .hello.buton:hover {
     background-color: rgb(78, 158, 84);
   }
+  .journey-anchor{
+    text-decoration: none;
+    color:black;
+}

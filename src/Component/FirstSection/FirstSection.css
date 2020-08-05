@@ -13,6 +13,10 @@
 .left{
     display: flex;
     background-color: khaki;
+    /* border-radius: 100px; */
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 50px 0px 50px 0px;
 }
 .left-img{
     border-radius: 150px;
@@ -58,7 +62,9 @@
 }
 
 .right{
-     
+    padding-left: 2rem;
+    padding-right: 2rem;
+    border-radius: 50px 0px 50px 0px;
    background-color: lightgreen;
 }
 .right-img{
