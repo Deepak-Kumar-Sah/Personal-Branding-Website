@@ -6,6 +6,7 @@ import TopBar from "../TopBar/nav";
 import Footer from "../Footer/footer";
 import Ahuman from "../../Assets/Images/human.jpg";
 import About from "../about/About";
+import Journey from "../Journey/journey";
 import {
   Link
 } from 'react-router-dom';
@@ -103,7 +104,9 @@ export default class FirstSection extends React.Component{
                 <button className="right-Read-more"><Link to="/artist" className="anchor">Read More...</Link></button></p>
            </div>
            <br/>
-
+          <div>
+          <Journey/>
+          </div>
            </div>
                 <div>
                     <Footer/>
