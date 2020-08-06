@@ -28,7 +28,7 @@ export default class FirstSection extends React.Component{
             <div className="body">
            <div className="About-Nandita">
                <About/>
-           </div>
+           </div> 
            <div className="poem">
                <Poem_Slider/>
            </div>
