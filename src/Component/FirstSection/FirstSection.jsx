@@ -7,6 +7,7 @@ import Footer from "../Footer/footer";
 import Ahuman from "../../Assets/Images/human.jpg";
 import About from "../about/About";
 import Journey from "../Journey/journey";
+import Poem_Slider from "../BackgroundImage/BackgroundImage";
 import Poem from "../poem/Poem"
 import {
   Link
@@ -29,7 +30,7 @@ export default class FirstSection extends React.Component{
                <About/>
            </div>
            <div className="poem">
-               <Poem/>
+               <Poem_Slider/>
            </div>
            <div className="left">
              <div><img src={Ahuman} className="left-img"/></div>
@@ -45,7 +46,6 @@ export default class FirstSection extends React.Component{
                 fatigue was building,she started losing, losing herself, her laughter, her smile, her health and her sense of judgement.<br/>
                 <button className="right-Read-more"><Link to="/human" className="anchor">Read More...</Link></button></p>
            </div>
-           <br/>
            <div className="right">
              <div><img src={Ahuman} className="right-img"/></div>
                <p className="right-content">
@@ -61,7 +61,6 @@ export default class FirstSection extends React.Component{
                 <br/><button className="left-Read-more"><Link to="/alchemist" className="anchor">Read More...</Link></button>
                 </p>
            </div>
-           <br/>
            <div className="left">
              <div><img src={Ahuman} className="left-img"/></div>
                <p className="left-content">
@@ -76,7 +75,6 @@ export default class FirstSection extends React.Component{
                 fatigue was building,she started losing, losing herself, her laughter, her smile, her health and her sense of judgement.<br/>
                 <button className="right-Read-more"><Link to="/philosopher" className="anchor">Read More...</Link></button></p>
            </div>
-           <br/>
            <div className="right">
              <div><img src={Ahuman} className="right-img"/></div>
                <p className="right-content">
@@ -92,7 +90,6 @@ export default class FirstSection extends React.Component{
                 <br/><button className="left-Read-more"><Link to="/entrepreneur" className="anchor">Read More...</Link></button>
                 </p>
            </div>
-           <br/>
            <div className="left">
              <div><img src={Ahuman} className="left-img"/></div>
                <p className="left-content">

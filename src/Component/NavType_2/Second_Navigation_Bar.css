@@ -14,10 +14,8 @@
     font-size: 24px;
    
 }
-.heading{
-    text-align: center;
-}
 .parent_div{
+    text-align: center;
     /* background-color: khaki; */
 }
 .anchor1:hover{

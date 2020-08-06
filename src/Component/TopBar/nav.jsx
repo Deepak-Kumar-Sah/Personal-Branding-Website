@@ -33,15 +33,23 @@ export default class TopBar extends React.Component{
                     left:0,
                     behavior:'smooth'
                 })} className={this.state.isSticky ? 'anchor1' : "anchor2"}>About</Link></li>
-                    <li className={this.state.isSticky ? 'menu1' : "menu2"}><Link to="/journey" className={this.state.isSticky ? 'anchor1' : "anchor2"}>Journey</Link></li>
+                    <li className={this.state.isSticky ? 'menu1' : "menu2"}><Link onClick={()=>window.scrollBy({
+                    top:4100,//500 diifference
+                    left:0,
+                    behavior:'smooth'
+                })} className={this.state.isSticky ? 'anchor1' : "anchor2"}>Journey</Link></li>
                     <div className={this.state.isSticky ? 'nandita1' : "nandita2"}>NANDITA SHARMA</div>
-                    <li className={this.state.isSticky ? 'menu1' : "menu2"}><Link to="/poem" className={this.state.isSticky ? 'anchor1' : "anchor2"}>Poem</Link></li>
+                    <li className={this.state.isSticky ? 'menu1' : "menu2"}><Link onClick={()=>window.scrollBy({
+                    top:1100,//500 diifference
+                    left:0,
+                    behavior:'smooth'
+                })}  className={this.state.isSticky ? 'anchor1' : "anchor2"}>Poem</Link></li>
                     <li className={this.state.isSticky ? 'menu1' : "menu2"} ><Link onClick={()=>window.scrollBy({
-                    top:3000,
+                    top:4100,
                     behavior:'smooth'
                 })}  className={this.state.isSticky ? 'anchor1' : "anchor2"}>Join me</Link></li>
                     <li className={this.state.isSticky ? 'menu1' : "menu2"} ><Link onClick={()=>window.scrollBy({
-                    top:3000,
+                    top:4100,
                     behavior:'smooth'
                 })} className={this.state.isSticky ? 'anchor1' : "anchor2"}>Contact</Link></li>
                 </ul>

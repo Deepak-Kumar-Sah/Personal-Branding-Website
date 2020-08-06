@@ -1,48 +1,19 @@
-.titles_poem{
-    background-color:white; 
-    text-align:center; 
-    /* border:0px solid lightgray ; */
-    /* height:600px; */
-    /* width:1300px; */
-    margin-left: 40px;
-    margin-right: 40px;
-    margin-top: 40px; 
-    /* position:absolute; */
 
-
-}.box_poem{
-    
-    border: 30px solid lightgray ;
-    height:400px;
-    width:600px;
-    margin-left: 300px;
-    margin-bottom:20px;
-    margin-top: 30px;
-    font-family: Poppins-Regular;;
-    background-color:white;
-    padding:10px;  
-    position:relative;
-    
+.box_poem{
+    font-family: Poppins-Regular;
+    padding-bottom: 1rem;
 }
 
- .img_poem>img{
-    height:12px;
-    width:12px;
-    margin-top:3px;
-    margin-left: 3px;
- }
 
 .title_poem{
-    text-align:left;
-    font-size: 20px;
-    margin-top:20px;
-    margin-left:150px;
+    text-align:center;
+    /* margin-top:20px;
+    margin-left:150px; */
+    color: white;
     
 }
 .content_poem{
     text-align:center;
-    margin-left:150px;
-    margin-right:20px;
-    margin-bottom:20px;
-
+    font-size: 20px;
+    margin-left: 12px;
 }

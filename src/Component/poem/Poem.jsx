@@ -10,14 +10,13 @@ export default class Poem extends React.Component{
                   <div className="box_poem">
                  
                  
-                 <div className="img_poem"> 
+                 {/* <div className="img_poem"> 
                      <img src={facebook}/> 
-                 </div> 
+                 </div>  */}
                      
                 <div className="title_poem">
-                <h3> Poem 1 </h3>
+                <h1> Poem 1 </h1>
                 </div>
-                
                 <div className="content_poem">
                 
                 A woman who flow...<br/>

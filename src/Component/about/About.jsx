@@ -6,7 +6,8 @@ import {
 export default class About extends React.Component{
     render(){
         return(
-            <div className="obox_about">
+           <div className="parent_obox_about">
+                <div className="obox_about">
              <div className="box_about">
                 <div className="title_about">
                 <h2>About Nandita </h2>
@@ -23,6 +24,7 @@ export default class About extends React.Component{
                 <button className="about-Read-more_about"><Link to="/aboutpg" className="anchor_about">Read More...</Link> </button>
                 </div>
                 </div>
+           </div>
         );
     }
     }

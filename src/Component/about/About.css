@@ -17,10 +17,12 @@
     border: 4px solid grey ; 
     /* position:relative; */
     height:350px;
-    width:1250px;
-    margin-left:50px;   
-    margin-right:50px; 
-    margin-bottom: 50px;
+    width:80vw;  
+    margin:auto; 
+    /* margin-right:50px;  */
+    /* margin-bottom: 50px;
+    margin-top: 100px;
+    margin-bottom: 100px; */
     /* background-color: yellowgreen; */
 }
 
@@ -49,28 +51,8 @@
    font-family: Poppins-Regular;
    text-align: center;
    padding:7px;
+   font-size: 20px;
 }
-/* .buttona>button{
-    
-    height:40px;
-    width: 80px;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 950px ;
-    border-radius: 30px;
-    border: none;
-    cursor: pointer;
-    font-size:12px;
-    font-family: "Poppins-Regular";
-    transition-duration: 0.4s;
-    background-color:skyblue;
-    
-} */
-
-/* button:hover{
-    background-color:darkgray;
-    color:grey;
-} */
 .about-Read-more_about{
     height: 50px;
     width: 150px;
@@ -81,12 +63,17 @@
     font-family: "Poppins-Regular";
     transition-duration: 0.4s;
     background-color: rgb(190, 242, 252);
-    margin-left: 80%;
     margin-bottom:40px;
+   margin-left: 60vw;
+   
 }
 .about-Read-more_about:hover{
     background-color: rgb(90, 156, 134);
 }
 .anchor_about{
     text-decoration: none;
+    color: black;
+}
+.parent_obox_about{
+    margin:60px;
 }
