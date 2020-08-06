@@ -24,7 +24,7 @@ export default class TopBar extends React.Component{
             this.setState({currentScrollPos:window.scrollY});
         }
         return(
-            <div>
+            <div className="myNav">
                 <div className={this.state.isSticky ? 'navbox1' : "navbox2"}>    
                 <ul className="fisrt_ul">
                     <li className={this.state.isSticky ? 'menu1' : "menu2"}><Link to="/" className={this.state.isSticky ? 'anchor1' : "anchor2"}>Home</Link></li>

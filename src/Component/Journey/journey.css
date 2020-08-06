@@ -1,39 +1,58 @@
-.hello{
+.hello {
   align-items: center;
-    margin-top: 15px;
-    text-align: center;
-   
+  margin-top: 15px;
+  text-align: center;
+  max-height: 500px;
+  /* overflow: hidden; */
+  position: relative;
+
 }
-.hello>img{
-    height: 500px;
-    width: 1500px;
+
+.hello>img {
+  height: 500px;
+  min-width: 100vw;
+  max-width: 100vw;
+}
+
+.containerJourney {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 .centered {
-    position: relative;
-     bottom: 220px; 
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color : white;
-  }
-  .hello.buton {
-    position: relative;
-    top: 50%;
-    left: 50%;
-    /* transform: translate(-50%, -50%);
+  position: relative;
+  /* bottom: 220px; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  color: white;
+}
+
+.button {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  padding: 10px;
+  margin: 10px;
+  /* top: 50%;
+  left: 50%; */
+  /* transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%); */
-    background-color: rgb(255, 251, 251);
-    color: white;
-    font-size: 16px;
-    padding: 15px 30px;
-    border: none;
-    cursor: pointer;
-    border-radius: 10px;
-  }
+  background-color: rgb(255, 251, 251);
+  color: white;
+  font-size: 16px;
+  /* padding: 15px 30px; */
+  border: none;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
 .hello.buton:hover {
-    background-color: rgb(78, 158, 84);
-  }
-  .journey-anchor{
-    text-decoration: none;
-    color:black;
+  background-color: rgb(78, 158, 84);
+}
+
+.journey-anchor {
+  text-decoration: none;
+  color: black;
 }
