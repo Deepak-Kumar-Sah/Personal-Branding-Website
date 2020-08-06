@@ -7,6 +7,7 @@ import Footer from "../Footer/footer";
 import Ahuman from "../../Assets/Images/human.jpg";
 import About from "../about/About";
 import Journey from "../Journey/journey";
+import Poem from "../poem/Poem"
 import {
   Link
 } from 'react-router-dom';
@@ -22,10 +23,13 @@ export default class FirstSection extends React.Component{
                 <Quotes/>
                 <Button/>
             </div>
-           </div>
-           <div className="body">
+            </div> 
+            <div className="body">
            <div className="About-Nandita">
                <About/>
+           </div>
+           <div className="poem">
+               <Poem/>
            </div>
            <div className="left">
              <div><img src={Ahuman} className="left-img"/></div>

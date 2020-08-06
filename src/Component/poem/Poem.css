@@ -1,16 +1,16 @@
-.poem{
-    background-color:whitesmoke; 
+.titles_poem{
+    background-color:white; 
     text-align:center; 
-    /* border: 40px solid lightgray ; */
-    height:600px;
-    width:1300px;
+    /* border:0px solid lightgray ; */
+    /* height:600px; */
+    /* width:1300px; */
     margin-left: 40px;
     margin-right: 40px;
     margin-top: 40px; 
-    position:absolute;
+    /* position:absolute; */
 
 
-}.box{
+}.box_poem{
     
     border: 30px solid lightgray ;
     height:400px;
@@ -25,21 +25,21 @@
     
 }
 
-.ab,img{
-    height:120px;
-    width:120px;
+ .img_poem>img{
+    height:12px;
+    width:12px;
     margin-top:3px;
-    
-}
+    margin-left: 3px;
+ }
 
-.title{
+.title_poem{
     text-align:left;
     font-size: 20px;
     margin-top:20px;
     margin-left:150px;
     
 }
-.content{
+.content_poem{
     text-align:center;
     margin-left:150px;
     margin-right:20px;

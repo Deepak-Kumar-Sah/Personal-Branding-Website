@@ -1,4 +1,4 @@
-.about,img{
+.about_aboutpg {
     height:630px;
     width:1400px;
     margin-top:4px; 
@@ -10,7 +10,7 @@
     background-size: cover;
     position: absolute;
 }
-.obox{ 
+.obox_aboutpg{ 
      background-color:transparent;
      border: 4px solid white ; 
      position:relative;
@@ -20,7 +20,7 @@
      margin-left:50px;   
      margin-right:50px; 
 }
-.box{
+.box_aboutpg{
     position:relative;
     height:250px;
     width:1150px;
@@ -36,7 +36,7 @@
 
 }
  
-.title{
+.title_aboutpg{
     font-size: 20px;
     /* margin-top:20px; */
     font-family: LibreBaskerville-Bold;
@@ -44,7 +44,7 @@
     text-align: left ;
     padding:15px;
 }
-.content{
+.content_aboutpg{
     text-align: center;
     font-family: Poppins-Regular;
     padding:7px;
