@@ -20,7 +20,7 @@ export default class About extends React.Component{
                  and Home Rule: National Sovereignty and the Separation of Natives and Migrants
                  (Duke University Press, 2020).
                 </div>
-                <button className="about-Read-more_about"><Link to="/aboutpg" className="anchor_about">Read More...</Link> </button>
+                {/* <button className="about-Read-more_about"><Link to="/aboutpg" className="anchor_about">Read More...</Link> </button> */}
                 </div>
                 </div>
         );

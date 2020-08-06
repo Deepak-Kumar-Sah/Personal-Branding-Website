@@ -5,7 +5,7 @@ import Button from "../Buttons/Buttons";
 import TopBar from "../TopBar/nav";
 import Footer from "../Footer/footer";
 import Ahuman from "../../Assets/Images/human.jpg";
-import About from "../about/About";
+// import About from "../about/About";
 import Journey from "../Journey/journey";
 import Poem from "../poem/Poem"
 import {
@@ -27,7 +27,7 @@ export default class FirstSection extends React.Component{
             <div className="body">
            <div className="About-Nandita">
                <About/>
-           </div>
+           </div> 
            <div className="poem">
                <Poem/>
            </div>
