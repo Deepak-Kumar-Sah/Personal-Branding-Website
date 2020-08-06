@@ -1,33 +1,34 @@
 .hello{
+  align-items: center;
     margin-top: 15px;
     text-align: center;
    
 }
 .hello>img{
-    height: 400px;
-    width: 1000px;
-    margin-left: 289px;
+    height: 500px;
+    width: 1500px;
 }
 
 .centered {
-    position: absolute;
-    top: 50%;
+    position: relative;
+     bottom: 220px; 
     left: 50%;
     transform: translate(-50%, -50%);
+    color : white;
   }
   .hello.buton {
-    position: absolute;
+    position: relative;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    -ms-transform: translate(-50%, -50%);
+    /* transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%); */
     background-color: rgb(255, 251, 251);
     color: white;
     font-size: 16px;
-    padding: 12px 24px;
+    padding: 15px 30px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 10px;
   }
 .hello.buton:hover {
     background-color: rgb(78, 158, 84);

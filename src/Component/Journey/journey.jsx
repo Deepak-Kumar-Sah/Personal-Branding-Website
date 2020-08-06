@@ -9,7 +9,8 @@ export default class Journey  extends React.Component{
         return(
             <div className ="hello" >
             <img src={hello}/>
-            <div className="centered">BE A PART OF MY JOURNEY </div> 
+            <div className="centered">
+                <h1>BE A PART OF MY JOURNEY </h1></div> 
             <button class="buton"><Link to="/journey" className="journey-anchor">Read More...</Link></button>
          </div>
          );
