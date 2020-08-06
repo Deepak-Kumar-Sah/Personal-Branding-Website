@@ -1,36 +1,46 @@
 import React from 'react';
 import './Poem.css';
-import ab from "../../Assets/Images/ab.jpg" ;
+import facebook  from "../../Assets/Images/facebook.png" ;
 export default class Poem extends React.Component{
     render(){
         return(
-            
-            <div className="poem">
-                <h1>PRETTY KETTLE OF POEM</h1>
-                 <div className="box">
+                 
+            // <div className="titles_poem">
+                // <h1>PRETTY KETTLE OF POEM</h1>
+                  <div className="box_poem">
                  
                  
-                <div className='ab'>
-                     <img src={ab}/>
-                     </div>
-                <div className="title">
+                 <div className="img_poem"> 
+                     <img src={facebook}/> 
+                 </div> 
+                     
+                <div className="title_poem">
                 <h3> Poem 1 </h3>
                 </div>
                 
-                <div className="content">
-                What I like about other people’s apartments is that the way
-                objects are arranged in space is given, I can only
-                In my own apartment what makes me nervous is the opposite –
-                nothing is definitive.
-                As in life. Fragile, vulnerable the way things are
-                today.
-                I could, theoretically, move anything
-                at any time. My things, clothes, wardrobes and tables
-                are suffused with the provisional nature of my existence
-                here on earth, with my uncertainty, my mortality.
-                I uncritically accept all aquariums belonging to other people
-                (as long as there is no plastic castle inside)
-                </div>
+                <div className="content_poem">
+                
+                A woman who flow...<br/>
+                With time..<br/>
+                With life...<br/>
+                With seasons...<br/>
+
+                A woman who dreams...<br/>
+                In day..<br/>
+                In night....<br/>
+                In dark and in light..<br/>
+
+                A woman who smiles....<br/>
+                With breeeze<br/>
+                With rain<br/>
+                Whenever she sees a moving train...<br/>
+
+                She laughs,<br/>
+                She cries,<br/>
+                Whenever she falls,<br/>
+                She gets up,<br/>
+                Pat her back and says<br/>
+                "Well done.. it was a nice try" ..<br/>
                 </div>
                 
             </div>

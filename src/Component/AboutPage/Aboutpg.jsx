@@ -1,18 +1,18 @@
 import React from 'react';
-// import './Aboutpg.css';
+import './Aboutpg.css';
 // import ab from "../../Assets/Images/ab.jpg" ;
 export default class Aboutpg extends React.Component{
     render(){
         return(
-            <div className="about">
+            <div className="about_aboutpg">
                 
-            <div className="obox">
-                <div className="box">
-                <div className="title">
+            <div className="obox_aboutpg">
+                <div className="box_aboutpg">
+                <div className="title_aboutpg">
                 <h2>About Nandita </h2>
                 </div>
 
-                <div className="content">
+                <div className="content_aboutpg">
                  Nandita Sharma is an activist scholar whose research is shaped by the social 
                  movements she is active in, including No Borders  movements and those struggling
                  for the planetary commons. She is the author of Home Economics: Nationalism and 
