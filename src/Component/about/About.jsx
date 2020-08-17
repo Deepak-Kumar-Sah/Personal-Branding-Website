@@ -12,7 +12,6 @@ export default class About extends React.Component{
                 <div className="title_about">
                 <h2>About Nandita </h2>
                 </div>
-
                 <div className="content_about">
                  Nandita Sharma is an activist scholar whose research is shaped by the social 
                  movements she is active in, including No Borders  movements and those struggling
@@ -21,7 +20,7 @@ export default class About extends React.Component{
                  and Home Rule: National Sovereignty and the Separation of Natives and Migrants
                  (Duke University Press, 2020).
                 </div>
-                {/* <button className="about-Read-more_about"><Link to="/aboutpg" className="anchor_about">Read More...</Link> </button> */}
+                <button className="about-Read-more_about"><Link to="/aboutpg" className="anchor_about">Read More...</Link> </button>
                 </div>
                 </div>
            </div>

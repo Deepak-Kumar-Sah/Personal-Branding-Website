@@ -27,28 +27,32 @@ export default class TopBar extends React.Component{
             <div className="myNav">
                 <div className={this.state.isSticky ? 'navbox1' : "navbox2"}>    
                 <ul className="fisrt_ul">
-                    <li className={this.state.isSticky ? 'menu1' : "menu2"}><Link to="/" className={this.state.isSticky ? 'anchor1' : "anchor2"}>Home</Link></li>
-                    <li className={this.state.isSticky ? 'menu1' : "menu2"} ><Link onClick={()=>window.scrollBy({
-                    top:700,//500 diifference
+                    <li className={this.state.isSticky ? 'menu1' : "menu2"}><Link to="/" className={this.state.isSticky ? 'anchor1' : "anchor2"}onClick={()=>window.scrollTo({
+                    top:0,//500 diifference
+                    left:0,
+                    behavior:'smooth'
+                })}>Home</Link></li>
+                    <li className={this.state.isSticky ? 'menu1' : "menu2"} ><Link onClick={()=>window.scrollTo({
+                    top:500,//500 diifference
                     left:0,
                     behavior:'smooth'
                 })} className={this.state.isSticky ? 'anchor1' : "anchor2"}>About</Link></li>
-                    <li className={this.state.isSticky ? 'menu1' : "menu2"}><Link onClick={()=>window.scrollBy({
-                    top:4100,//500 diifference
+                    <li className={this.state.isSticky ? 'menu1' : "menu2"}><Link onClick={()=>window.scrollTo({
+                    top:4100,
                     left:0,
                     behavior:'smooth'
                 })} className={this.state.isSticky ? 'anchor1' : "anchor2"}>Journey</Link></li>
                     <div className={this.state.isSticky ? 'nandita1' : "nandita2"}>NANDITA SHARMA</div>
-                    <li className={this.state.isSticky ? 'menu1' : "menu2"}><Link onClick={()=>window.scrollBy({
-                    top:1100,//500 diifference
+                    <li className={this.state.isSticky ? 'menu1' : "menu2"}><Link onClick={()=>window.scrollTo({
+                    top:1100,
                     left:0,
                     behavior:'smooth'
                 })}  className={this.state.isSticky ? 'anchor1' : "anchor2"}>Poem</Link></li>
-                    <li className={this.state.isSticky ? 'menu1' : "menu2"} ><Link onClick={()=>window.scrollBy({
+                    <li className={this.state.isSticky ? 'menu1' : "menu2"} ><Link onClick={()=>window.scrollTo({
                     top:4100,
                     behavior:'smooth'
                 })}  className={this.state.isSticky ? 'anchor1' : "anchor2"}>Join me</Link></li>
-                    <li className={this.state.isSticky ? 'menu1' : "menu2"} ><Link onClick={()=>window.scrollBy({
+                    <li className={this.state.isSticky ? 'menu1' : "menu2"} ><Link onClick={()=>window.scrollTo({
                     top:4100,
                     behavior:'smooth'
                 })} className={this.state.isSticky ? 'anchor1' : "anchor2"}>Contact</Link></li>

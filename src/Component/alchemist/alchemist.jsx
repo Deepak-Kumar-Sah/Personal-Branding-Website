@@ -1,6 +1,6 @@
 import React from 'react';
 import './alchemist.css';
-// import aHuman from "./image/human.jpg";
+import aHuman from "../../Assets/Images/human.jpg";
 import Content from './content';
 import Second_Navigation_Bar from "../NavType_2/Second_Navigation_Bar";
 import Footer from "../Footer/footer";
@@ -20,7 +20,7 @@ export default class Alchemist extends React.Component{
         return(
            <div>
                 <div className="title">
-                <h1>AN ALCHEMIST</h1>
+                <h1>The ALCHEMIST</h1>
                 </div>
                 <div> 
                     <Second_Navigation_Bar/>
@@ -33,7 +33,7 @@ export default class Alchemist extends React.Component{
                    <a href="https://www.youtube.com/"><img src={PlayButton} alt="play_logo"/></a>
                </div>
                 <div className="aHuman">
-                    {/* <img src={aHuman}/> */}
+                    <img src={aHuman}/>
                 </div>
                 <div>
                     <Content/>
